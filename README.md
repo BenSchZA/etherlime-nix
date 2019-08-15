@@ -1,6 +1,8 @@
-See Nix, The Purely Functional Package Manager: https://nixos.org/nix/
-See Node2Nix, generate Nix expressions to build NPM packages : https://github.com/svanderburg/node2nix
-See Etherlime, Dapp Development framework based on ethers.js: https://github.com/LimeChain/etherlime
+## Resources
+
+1. Nix, The Purely Functional Package Manager: https://nixos.org/nix/
+2. Node2Nix, generate Nix expressions to build NPM packages : https://github.com/svanderburg/node2nix
+3. Etherlime, Dapp Development framework based on ethers.js: https://github.com/LimeChain/etherlime
 
 ## Prerequisites
 
