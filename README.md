@@ -1,8 +1,15 @@
-## Pre-requisites
+See Nix, The Purely Functional Package Manager: https://nixos.org/nix/
+See Node2Nix, generate Nix expressions to build NPM packages : https://github.com/svanderburg/node2nix
+See Etherlime, Dapp Development framework based on ethers.js: https://github.com/LimeChain/etherlime
 
-1. Install Nix package manager and `node2nix`
+## Prerequisites
+
+Install Nix package manager and `node2nix`
+
+## Generate Nix expressions (only if updating)
+
+`node2nix --nodejs-10 -i node-packages.json`
 
 ## Installation
 
-1. `node2nix --nodejs-10 -i node-packages.json`
-2. `node2nix -f default.nix -iA etherlime --keep-going`
+`nix-env -f default.nix -iA etherlime --keep-going`
